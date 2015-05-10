@@ -1,0 +1,10 @@
+/** @define Avatar */
+
+:root {
+  --Avatar-img-borderColor: #333;
+}
+
+.Avatar-img {
+  border-radius: 10px;
+  border: 1px solid var(--Avatar-img-borderColor);
+}

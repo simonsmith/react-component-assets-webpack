@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <title></title>
+  <link rel="stylesheet" href="../dist/app.css">
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.2/react.js"></script>
+  <script>
+  var data = {
+    username: 'John Doe',
+    avatar: {
+      src: 'http://placehold.it/200x200',
+      alt: 'Image of John Doe'
+    }
+  };
+  </script>
+  <script src="../dist/app.js"></script>
+  <script>
+    React.render(React.createElement(App, { userData: data }), document.body);
+  </script>
+</body>
+</html>

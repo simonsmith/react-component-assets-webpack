@@ -1,0 +1,32 @@
+{
+  "name": "react-webpack-assets",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer-core": "^5.1.11",
+    "babel-core": "^5.1.13",
+    "babel-loader": "^5.0.0",
+    "css-loader": "^0.12.0",
+    "extract-text-webpack-plugin": "^0.7.0",
+    "file-loader": "^0.8.1",
+    "postcss": "^4.1.6",
+    "postcss-bem-linter": "necolas/postcss-bem-linter",
+    "postcss-custom-properties": "^3.3.0",
+    "postcss-import": "^5.2.2",
+    "postcss-loader": "^0.4.1",
+    "style-loader": "^0.12.1",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.8.10"
+  },
+  "dependencies": {
+    "react": "^0.13.2",
+    "suitcss-base": "^0.8.0",
+    "suitcss-utils-layout": "^0.4.2"
+  }
+}

@@ -1,0 +1,9 @@
+@import "./theme.css";
+
+body {
+  color: var(--text-color);
+}
+
+h2 {
+  font-weight: 400;
+}

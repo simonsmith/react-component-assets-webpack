@@ -1,0 +1,20 @@
+/** @define Profile */
+
+@font-face {
+  font-family: "open_sansregular";
+  src: url("fonts/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Profile {
+  background: url("images/icon-user.png") no-repeat right 10px top 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-family: "open_sansregular";
+  border-radius: 4px;
+}
+
+.Profile-wrapAvatar {
+  text-align: center;
+}
